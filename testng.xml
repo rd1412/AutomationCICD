@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners>
+<listener class-name="seleniumTutorial.TestComponents.Listeners"/>
+</listeners>
+
+
+  <test thread-count="5" name="Ecommerce Test">
+    <classes>
+      <class name="seleniumTutorial.Tests.Ecommerce"/>
+    </classes>
+  </test> 
+  
+    <test thread-count="5" name="Error validation Test">
+    <classes>
+      <class name="seleniumTutorial.Tests.ErrorValidation"/>
+    </classes>
+  </test> 
+  
+</suite> 
+
+
